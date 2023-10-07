@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "曉華",
+      "age": 26,
+      "gender": "male",
+      "email": "abc123@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "小美",
+      "age": 28,
+      "gender": "female",
+      "email": "efg456@gmail.com"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "room": "delicate",
+      "date": {
+        "checkIn": "2023-10-06T14:00",
+        "checkOut": "2023-10-10T12:00"
+      },
+      "cat": 2,
+      "remark": "期待你們的服務",
+      "userId": 1
+    },
+    {
+      "room": "luxury",
+      "date": {
+        "checkIn": "2023-10-16T10:34",
+        "checkOut": "2023-10-19T10:34"
+      },
+      "cat": 2,
+      "remark": "期待 YAYAYA",
+      "userId": "1",
+      "id": 2
+    },
+    {
+      "room": "classic",
+      "date": {
+        "checkIn": "2023-10-09T11:34",
+        "checkOut": "2023-10-27T10:34"
+      },
+      "cat": 2,
+      "remark": "好喜歡你們的房間",
+      "userId": "2",
+      "id": 3
+    },
+    {
+      "room": "delicate",
+      "date": {
+        "checkIn": "2023-10-12T08:07",
+        "checkOut": "2023-10-14T08:07"
+      },
+      "cat": "1",
+      "remark": "LALALA",
+      "userId": "1",
+      "id": 4
+    },
+    {
+      "room": "delicate",
+      "date": {
+        "checkIn": "2023-10-14T08:11",
+        "checkOut": "2023-10-21T08:11"
+      },
+      "cat": "1",
+      "remark": "LALALA",
+      "userId": "2",
+      "id": 5
+    }
+  ]
+}
